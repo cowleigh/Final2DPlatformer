@@ -32,3 +32,7 @@ draw_text(x + 0, y + 0,  + string(text_data));
 /// @DnDHash : 2C44281E
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1.1
+/// @DnDHash : 46520CBA

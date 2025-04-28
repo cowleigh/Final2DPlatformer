@@ -4,6 +4,13 @@
 /// @DnDApplyTo : other
 with(other) instance_destroy();
 
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1.1
+/// @DnDHash : 1409DCD9
+/// @DnDArgument : "soundid" "Coin_Sound"
+/// @DnDSaveInfo : "soundid" "Coin_Sound"
+audio_play_sound(Coin_Sound, 0, 0, 1.0, undefined, 1.0);
+
 /// @DnDAction : YoYo Games.Particles.Effect
 /// @DnDVersion : 1
 /// @DnDHash : 56BD9A2A
